@@ -36,10 +36,10 @@ const App = () => {
         className="circle"
         style={{ transform: `rotate(${angle}deg)`, transition: 'transform 3s ease-out' }}
       >
-        {/* Aquí puedes agregar tus secciones */}
         <li><div className="section" spellCheck="false">1</div></li>
         <li><div className="section" spellCheck="false">2</div></li>
         <li><div className="section" spellCheck="false">3</div></li>
+        <li><div className="section" spellCheck="false">4</div></li>
         <li><div className="section" spellCheck="false">5</div></li>
         <li><div className="section" spellCheck="false">6</div></li>
         <li><div className="section" spellCheck="false">7</div></li>
@@ -48,6 +48,7 @@ const App = () => {
         <li><div className="section" spellCheck="false">10</div></li>
         <li><div className="section" spellCheck="false">11</div></li>
         <li><div className="section" spellCheck="false">12</div></li>
+        <div className="arrow"></div>
       </ul>
       <button onClick={spin} disabled={isSpinning}>
         Girar
